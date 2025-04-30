@@ -11,7 +11,7 @@ def get_book_text(filepath):
 
 
 def main():
-
+    #checks to confirm the proper inputs 
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
